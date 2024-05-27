@@ -102,7 +102,7 @@ h1 {
 
 .message {
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   height: 2rem;
   font-size: 1.5rem;
 }
@@ -114,4 +114,30 @@ h1 {
 
 .label-highscore {
   font-size: 1.5rem;
+}
+
+.levels {
+  width: 100%;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.levels p,
+.medium,
+.hard {
+  padding: 1rem 2rem;
+}
+
+.medium,
+.hard {
+  padding-top: 0;
+}
+
+.levels p {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+input[type='radio'] {
+  accent-color: black;
 }
