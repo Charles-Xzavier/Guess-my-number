@@ -31,7 +31,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 
 .left {
@@ -70,7 +70,7 @@ h1 {
 
 .again {
   font-size: 2rem;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 
 .guess {
@@ -123,11 +123,13 @@ h1 {
 }
 
 .levels p,
+.easy,
 .medium,
 .hard {
   padding: 1rem 2rem;
 }
 
+.easy,
 .medium,
 .hard {
   padding-top: 0;
